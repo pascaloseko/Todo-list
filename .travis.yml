@@ -15,7 +15,3 @@ install:
   - go get github.com/mattn/goveralls
   - go get github.com/gorilla/mux
   - go get github.com/mattn/goveralls
-
-script:
-  - go test -covermode=count -coverprofile=coverage.out
-  - $HOME/go/src//bin/goveralls -coverprofile=coverage.out -service=travis-ci
