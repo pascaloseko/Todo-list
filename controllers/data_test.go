@@ -17,5 +17,5 @@ var todos = []models.Todo{
 }
 
 func setup(){
-	// TodoDeleteAll()
+	TodoDeleteAll()
 }
