@@ -37,7 +37,7 @@ func init() {
 	db.Debug().AutoMigrate(&Account{}, &Todo{})
 }
 
-// Returns a handle to the db object
-func GetDB() *gorm.DB {
+//GetDB Returns a handle to the db object
+func GetDB() (database *gorm.DB) {
 	return db
 }
